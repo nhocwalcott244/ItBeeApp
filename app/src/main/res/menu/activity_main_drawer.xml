@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/goodJog"
+            android:icon="@drawable/goodjog"
+            android:title="Việc tốt" />
+        <item
+            android:id="@+id/suggestJob"
+            android:icon="@drawable/suggestjog"
+            android:title="Việc được gợi ý" />
+        <item
+            android:id="@+id/introJog"
+            android:icon="@drawable/goodjog"
+            android:title="Việc đã giới thiệu" />
+        <item
+            android:id="@+id/applyJob"
+            android:icon="@drawable/demojog"
+            android:title="Việc đã ứng tuyển" />
+        <item
+            android:id="@+id/topBee"
+            android:icon="@drawable/topbee"
+            android:title="Bee tiêu biểu" />
+        <item
+            android:id="@+id/topCompany"
+            android:icon="@drawable/company"
+            android:title="Công ty tiêu biểu" />
+    </group>
+
+    <item android:title="Cá nhân">
+        <menu>
+            <item
+                android:id="@+id/profile"
+                android:icon="@drawable/profile"
+                android:title="Trang cá nhân" />
+            <item
+                android:id="@+id/friend"
+                android:icon="@drawable/friend"
+                android:title="Bạn bè" />
+        </menu>
+    </item>
+    <item android:title="Công ty">
+        <menu>
+            <item
+                android:id="@+id/createCompany"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Tạo công ty" />
+            <item
+                android:id="@+id/createJob"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Tạo công việc" />
+            <item
+                android:id="@+id/company"
+                android:icon="@drawable/company"
+                android:title="Công ty quan tâm" />
+        </menu>
+    </item>
+
+</menu>
