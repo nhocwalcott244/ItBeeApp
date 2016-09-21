@@ -9,85 +9,15 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".company.companyActivity"
     android:orientation="vertical">
-   <AbsoluteLayout
-       android:layout_width="fill_parent"
-       android:layout_height="0dp"
-       android:layout_weight="1.2">
-      <Button
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:text="Thay anh bia"
-          android:layout_x="0dp"
-          android:layout_y="0dp"/>
-      <Button
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:text="Thay avata"
-          android:layout_x="0dp"
-          android:layout_y="250dp"/>
-      <ImageView
-          android:layout_width="fill_parent"
-          android:layout_height="200dp"
-          android:layout_x="0dp"
-          android:layout_y="0dp"
-          android:src="@drawable/company"/>
       <TextView
           android:layout_width="wrap_content"
-          android:layout_height="50dp"
-          android:text="FPT"
-          android:layout_x="90dp"
-          android:layout_y="190dp"
-          android:textSize="30dp"
-          android:theme="@style/Base.TextAppearance.AppCompat.Display3"
-          android:textColor="#255508" />
-      <ImageView
-          android:layout_width="100dp"
-          android:layout_height="100dp"
-          android:src="@drawable/company"
-          android:layout_x="-16dp"
-          android:layout_y="171dp"/>
-      <Button
-          android:layout_width="wrap_content"
-          android:layout_height="35dp"
-          android:text="Tin tuyển dụng"
-          android:layout_x="86dp"
-          android:layout_y="224dp"
-          android:paddingTop="12dp"
-          android:textColor="#000000" />
-      <Button
-          android:layout_width="wrap_content"
-          android:layout_height="35dp"
+          android:layout_height="wrap_content"
+          android:text="Day la trang chu cua cong ty"/>
 
-          android:text="Thông tin"
-          android:layout_x="256dp"
-          android:layout_y="224dp" />
-      <Button
-          android:layout_width="wrap_content"
-          android:layout_height="35dp"
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/topbee"/>
 
-          android:text="Thêm công việc"
-          android:layout_x="256dp"
-          android:layout_y="224dp" />
-      <Button
-          android:layout_width="wrap_content"
-          android:layout_height="35dp"
-
-          android:text="CHờ quản lí xác nhận"
-          android:layout_x="256dp"
-          android:layout_y="224dp" />
-      <Button
-          android:layout_width="wrap_content"
-          android:layout_height="35dp"
-
-          android:text="Chờ hệ thống xác nhận"
-          android:layout_x="256dp"
-          android:layout_y="224dp" />
-      <Button
-          android:layout_width="wrap_content"
-          android:layout_height="35dp"
-
-          android:text="Quản lí"
-          android:layout_x="256dp"
-          android:layout_y="224dp" />
-   </AbsoluteLayout>
-   </LinearLayout>
+</LinearLayout>

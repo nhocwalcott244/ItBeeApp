@@ -16,72 +16,10 @@
     android:text="Danh sach ban be"
     android:textSize="30dp"
     android:textColor="#255508"/>
-    <LinearLayout
-        android:layout_width="fill_parent"
+
+    <ListView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/friend"/>
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:orientation="vertical">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:layout_marginTop="20dp"
-            android:textColor="#255508"
-            android:text="Do Nguyet Anh"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="So cong viec da gioi thieu"
-                android:textSize="20dp"
-                android:textColor="#255508"/>
-            <EditText
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:hint="5"
-                android:textColor="#255508"/>
-        </LinearLayout>
-    </LinearLayout>
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="2dp"
-        android:background="#000000"/>
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/friend"/>
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:orientation="vertical">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="20dp"
-                android:layout_marginTop="20dp"
-                android:textColor="#255508"
-                android:text="Do Nguyet Anh"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="So cong viec da gioi thieu"
-                android:textSize="20dp"
-                android:textColor="#255508"/>
-            <EditText
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:hint="5"
-                android:textColor="#255508"/>
-        </LinearLayout>
-    </LinearLayout>
+        android:id="@+id/lvBee" />
+
 </LinearLayout>
